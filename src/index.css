@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import "tailwindcss";
+ @plugin "daisyui" {
+   themes: light --default;
+ }
+
+@plugin "daisyui/theme" {
+  name: "light";
+  default: true;
+  --color-primary: #CAEB66;
+  --color-secondary: #03373D;
+  --color-neutral: #1F1F1F;
+  --color-base-200: #f3f3f3;
+  --color-base-300: #e7e7e7;
+  --color-accent: #706f6f;
+}
+
+@plugin "daisyui/theme" {
+  name: "dark";
+
+  --color-primary: #CAEB66; 
+  --color-primary-content: #ffffff;
+  --color-secondary: #03373D;
+  --color-base-200: #1e1e1e;
+  --color-base-300: #2a2a2a;
+  --color-accent: #a3a3a3;
+}
+
+
+*{
+  font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.margin-top {
+  @apply mt-12 md:mt-16 lg:mt-20 xl:mt-24;
+}
+.margin-bottom {
+  @apply mb-12 md:mb-16 lg:mb-20 xl:mb-24;
+}
+.margin-y {
+  @apply my-12 md:my-16 lg:my-20 xl:my-24;
+}
+
+body{
+  @apply bg-base-200
+}
+
+nav ul li .navLink{
+  @apply rounded-full hover:bg-primary
+}
+nav ul li a.active{
+  @apply bg-primary
+}
+
+.box-padding{
+  @apply p-4 md:p-8 lg:p-16 xl:p-24;
+}
+
+/* swal button */
+.swal-confirm {
+  color: #000 !important; 
+  background-color: #CAEB66 !important;
+}
+
+.swal-cancel {
+  color: #fff !important;
+  background-color: #ff0000 !important;
+}
+
+.swal-text {
+  color: #03373D !important; /* description text color */
+}
+
+
