@@ -1,16 +1,75 @@
-# React + Vite
+## **Zap Shift**  
+**Fast. Reliable. On-Time Deliveries.**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Logo : <br/>
+<img src="./public/logo.png" alt="Zap Shift" style="width:150px;" />
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 📦 Description  
 
-## React Compiler
+**Welcome to Zap Shift – Fast. Reliable. On-Time Deliveries!**  
+<br/>
+Zap Shift is a modern logistics and shifting platform designed to make deliveries smooth, secure, and stress-free. Whether you need to move packages, manage delivery requests, or track ongoing shifts, Zap Shift provides a seamless experience for both users and service providers.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+With a clean interface and powerful features, Zap Shift ensures efficiency, transparency, and reliability in every delivery.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### ✨ Key Features  
+
+- Browse available delivery and shifting services from the Home page  
+- View detailed information about each shift or delivery request  
+- Request a new shift or delivery through an easy-to-use form  
+- Track delivery status in real time  
+- Update or cancel your delivery requests  
+- Secure user authentication with Email/Password and Google Sign-in  
+- Role-based access for Users and Admins  
+- Responsive design for mobile, tablet, and desktop  
+- Payment integration (Coming Soon)
+
+---
+
+### 🛠️ Technologies Used  
+
+- **Frontend:** React.js  
+- **State Management:** React Hooks (useState, useEffect, Custom Hooks)  
+- **Authentication:** Firebase Authentication (Email & Google)  
+- **Styling:** Tailwind CSS / CSS  
+- **Routing:** React Router  
+- **Backend (Optional):** Node.js, Express.js  
+- **Database (Optional):** MongoDB  
+- **UI & Utility Libraries:**  
+  - daisyUI  
+  - React Icons  
+  - React Hot Toast  
+  - SweetAlert2  
+
+---
+
+### 🌍 Live Link  
+
+🔗 **Zap Shift Live Website:**  
+https://zap-shift.web.app  
+*(Replace with your actual live link)*
+
+---
+
+### 🖥️ Homepage Preview  
+
+<div style="display:flex; justify-content:center;">
+  <img src="https://i.ibb.co.com/FbBZpVsw/zapshift.png" alt="Zap Shift Homepage" style="width:50%;" />
+</div>
+
+---
+
+### 🚀 Future Improvements  
+
+- Real-time GPS tracking for deliveries  
+- In-app chat between users and delivery partners  
+- Online payment system  
+- Notification system (Email / Push Notifications)  
+
+---
+
+✨ *Zap Shift – Moving faster, delivering smarter.*
